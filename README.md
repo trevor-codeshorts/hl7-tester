@@ -21,6 +21,7 @@ AIL|1||XYZ^XYZ Clinic|...
 AIP|1||ABC^Sample^Physician|...
 
 # ⚙️ Usage
+- Download the project source code launch cshl7test.exe or compile, build then run cshl7test.exe
 - Launch the application
 - Enter the destination IP address and port
 - Select the message batch size
