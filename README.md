@@ -21,18 +21,20 @@ AIL|1||XYZ^XYZ Clinic|...
 AIP|1||ABC^Sample^Physician|...
 
 # ⚙️ Usage
-- Download the project source code launch cshl7test.exe or compile, build then run cshl7test.exe
-- Launch the application
+- Option 1: Download the installer from the https://codeshorts.com/fileshare
+- Option 2: Download the project source code launch cshl7test.exe
+- Option 3: Dowlod the source, ompile, build then run cshl7test.exe
+- Launch HL7 tester the application
 - Enter the destination IP address and port
 - Select the message batch size
 - Click Send Payload
-- Watch the outputListbox and ackListbox update in real-time
+- Watch the output and ack response output windows update in real-time
 # 🧼 Input Validation
-- IP address format checked with System.Net.IPAddress.TryParse
+- IP v4 address format validation
 - Port validated as a number between 1–65535
 # 🪵 Logging
-- Each sent message is timestamped and listed in outputData
-- ACKs are decoded and displayed in ackData
+- Each sent message is timestamped and listed in output
+- ACKs are decoded and displayed in the output
 - Exceptions are logged per message or as a total failure on the first attempt
 📦 Classes & Methods
 | Name | Purpose | 
